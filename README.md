@@ -39,3 +39,10 @@ Ezeket a következő helyeken kell módosítani:
 
 ### 4. lépés: Használni!
 
+### Fontos: előkészületek
+Ha az elejétől kezdve tudjuk, hogy milyen adatokat akarunk tárolni az adatbázisban, akkor érdemes előre, ugyanazokat a field-eket szinkronba hozva módosítani, már előre, a következő fájlokat:
+- `website/migrations/0001_initial.py` (a `migrations.CreateModel` rész)
+- `website/models.py` (a `Record` class)
+- `website/forms.py` (a `AddRecordForm` rész)
+- `website/templates/record.html`
+- `website/templates/home.html`
