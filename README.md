@@ -10,7 +10,7 @@ Elsősorban a Mintafeldolgozó táblázat kiváltása miatt hoznánk létre, de 
 ## Lépések
 ### 0. lépés: felrakni a függőségeket
 0. Legyen feltelepítve a Python, és fusson egy MySQL adatbázis, port 3306.
-1. `python -m venv .venv` futtatása parancssoron
+1. `py -m venv .venv` futtatása parancssoron
 2. `.venv\Scripts\activate.bat` futtatása parancssoron
 3. `pip install -r requirements.txt` futtatása parancssoron
 
